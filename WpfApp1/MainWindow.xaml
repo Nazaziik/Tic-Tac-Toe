@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="FirstBut"  Grid.Row="0" Grid.Column="0" Click="ButtClick" FontSize="44" Content=""></Button>
+        <Button x:Name="SecondBut" Grid.Row="0" Grid.Column="1" Click="ButtClick" FontSize="44" Content=""></Button>
+        <Button x:Name="ThirdBut" Grid.Row="0" Grid.Column="2" Click="ButtClick" FontSize="44" Content=""></Button>
+        <Button x:Name="FourthBut" Grid.Row="1" Grid.Column="0" Click="ButtClick" FontSize="44" Content=""></Button>
+        <Button x:Name="FifthBut" Grid.Row="1" Grid.Column="1" Click="ButtClick" FontSize="44" Content=""></Button>
+        <Button x:Name="SixthBut" Grid.Row="1" Grid.Column="2" Click="ButtClick" FontSize="44" Content=""></Button>
+        <Button x:Name="SeventhBut" Grid.Row="2" Grid.Column="0" Click="ButtClick" FontSize="44" Content=""></Button>
+        <Button x:Name="EigthBut" Grid.Row="2" Grid.Column="1" Click="ButtClick" FontSize="44" Content=""></Button>
+        <Button x:Name="NineBut" Grid.Row="2" Grid.Column="2" Click="ButtClick" FontSize="44" Content=""></Button>
+    </Grid>
+</Window>
